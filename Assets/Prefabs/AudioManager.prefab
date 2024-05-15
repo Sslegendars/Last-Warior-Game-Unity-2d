@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2770256144222530647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4070960562615326369}
+  - component: {fileID: 4394715971337712056}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4070960562615326369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2770256144222530647}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.88, y: 3.68, z: -3.1898348}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4394715971337712056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2770256144222530647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea3559ea7676594e865045c88946ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - _name: Theme
+    clip: {fileID: 8300000, guid: 9ce05b75502bc204681fd3d10e28f7b6, type: 3}
+    volume: 0.02
+    pitch: 1.28
+    loop: 1
+    source: {fileID: 0}
+  - _name: Grave
+    clip: {fileID: 8300000, guid: ce371e73a6fdf444b80e83138bb92900, type: 3}
+    volume: 0.05
+    pitch: 1.28
+    loop: 0
+    source: {fileID: 0}
+  - _name: Jump
+    clip: {fileID: 8300000, guid: a26850054193ad84ba91302be91a81a1, type: 3}
+    volume: 0.05
+    pitch: 1.28
+    loop: 0
+    source: {fileID: 0}
+  - _name: PlayerAttack
+    clip: {fileID: 8300000, guid: a26850054193ad84ba91302be91a81a1, type: 3}
+    volume: 0.05
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - _name: PlayerHurt
+    clip: {fileID: 8300000, guid: 487b4c840bac40042a0f5cf8388a76fd, type: 3}
+    volume: 0.05
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - _name: Dash
+    clip: {fileID: 8300000, guid: 80277e81b4d2e7841a3dae9994639642, type: 3}
+    volume: 0.05
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - _name: PlayerHeal
+    clip: {fileID: 8300000, guid: c56020753e6bcb7458f8882ac4a77f77, type: 3}
+    volume: 0.426
+    pitch: 1.28
+    loop: 0
+    source: {fileID: 0}
+  - _name: CoinCollect
+    clip: {fileID: 8300000, guid: ae9d246ca3501c14f8332c6dc2bd1223, type: 3}
+    volume: 0.05
+    pitch: 1.28
+    loop: 0
+    source: {fileID: 0}
+  - _name: BombCountDown
+    clip: {fileID: 8300000, guid: d41ae8bc9a058d8428b4e267efee2919, type: 3}
+    volume: 0.07
+    pitch: 1.28
+    loop: 0
+    source: {fileID: 0}
+  - _name: BombExplosion
+    clip: {fileID: 8300000, guid: 2208382d686fb9044a73c9cd39e64203, type: 3}
+    volume: 0.3
+    pitch: 1.28
+    loop: 0
+    source: {fileID: 0}
+  - _name: FireParticle
+    clip: {fileID: 8300000, guid: 2b773fa529bb87d468ba2b2fd4da858c, type: 3}
+    volume: 0.03
+    pitch: 1.28
+    loop: 0
+    source: {fileID: 0}
+  - _name: SpentMoney
+    clip: {fileID: 8300000, guid: a39c9a61f50bad44aa010af599d42d8b, type: 3}
+    volume: 0.2
+    pitch: 1.28
+    loop: 0
+    source: {fileID: 0}
+  - _name: NotEnoughMoney
+    clip: {fileID: 8300000, guid: d07749bb13a55ca49ac66279c3de659a, type: 3}
+    volume: 0.2
+    pitch: 1.28
+    loop: 0
+    source: {fileID: 0}
+  - _name: GameOver
+    clip: {fileID: 8300000, guid: 147840e1c1280e74e82829f7c1d6cd96, type: 3}
+    volume: 0.2
+    pitch: 1.28
+    loop: 0
+    source: {fileID: 0}
+  - _name: YouWin
+    clip: {fileID: 8300000, guid: c9b03e68bb25e2543abb2671e78374ac, type: 3}
+    volume: 0.2
+    pitch: 1.28
+    loop: 0
+    source: {fileID: 0}
